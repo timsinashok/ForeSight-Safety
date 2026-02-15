@@ -15,6 +15,7 @@ import {
 } from './constants';
 
 const App: React.FC = () => {
+  const baseUrl = import.meta.env.BASE_URL;
   // --- State ---
   const [simulationActive, setSimulationActive] = useState(false);
   // Default to "Without Sentinel" per demo flow
@@ -133,7 +134,7 @@ const App: React.FC = () => {
         <div className="flex items-center gap-3">
           <div className="w-9 h-9 bg-ceramic-900 rounded flex items-center justify-center shadow-lg ring-1 ring-black/10 overflow-hidden">
             <img
-              src="/logo.png"
+              src={`${baseUrl}logo.png`}
               alt="Sentinel"
               className="w-8 h-8 object-contain"
               draggable={false}
@@ -147,7 +148,7 @@ const App: React.FC = () => {
 
         {/* Center: How it works */}
         <a
-          href="/how-it-works.html"
+          href={`${baseUrl}how-it-works.html`}
           target="_blank"
           rel="noreferrer"
           className="absolute left-1/2 -translate-x-1/2 px-3 py-1.5 rounded-full border border-ceramic-200 bg-white shadow-sm text-[11px] font-mono font-bold text-ceramic-700 hover:bg-ceramic-50 hover:text-ceramic-900 transition-colors"

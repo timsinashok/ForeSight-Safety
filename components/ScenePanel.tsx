@@ -41,7 +41,7 @@ const ScenePanel: React.FC<ScenePanelProps> = ({
   const isSentinelActive = systemMode === 'ACTIVE';
   
   // Video served from public/ folder
-  const videoSrc = '/0.0-14.0.mp4';
+  const videoSrc = `${import.meta.env.BASE_URL}0.0-14.0.mp4`;
   // Cropping: center the frame for "Without Sentinel", slightly higher for "With Sentinel"
   const videoObjectPosition = isSentinelActive ? '50% 35%' : '50% 50%';
   
