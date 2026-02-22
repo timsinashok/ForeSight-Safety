@@ -1,15 +1,12 @@
-FYI This project was submitted by Nils, Ashok and Parth for TREE Hacks 2026 
+```
+FYI This project was submitted by Ashok, Nils, and Parth for Tree Hacks 2026 (Feb 13 -16, Stanford)
 
 Sponsors Used: 
-NVIDIA
-Gemini AI
-Human Capital
-
+- NVIDIA
+- Gemini AI
 
 Backend Available at: https://github.com/timsinashok/cosmos-predict2.5
-
-
-
+```
 # Sentinel AI
 ### Predicting hazards before they happen.
 
